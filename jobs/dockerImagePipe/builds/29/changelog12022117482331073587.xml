@@ -1,0 +1,13 @@
+commit a1c244eb8d11346ea1cd52dee817345226bb549e
+tree c93c8bf1a81b2a1dbd38e2e2804f7ab14a8d8756
+parent 059f18d43d313fcce749c66df88641b290147584
+author bilal <bilal13.fethi@gmail.com> 2024-04-19 12:43:43 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-19 12:43:43 +0000
+
+    Update 2 files
+    
+    - /pom.xml
+    - /Jenkinsfile
+
+:100644 100644 f896d95e34ffa5e18f70f455272ebfd167900343 679b00d7f831ffb428d684a03218dc5cac362106 M	Jenkinsfile
+:100644 100644 546adee8de3bddeb6e2479867ac278f4061ffc37 f5665e5e58bdd806c7ba3099590abb22f5bc966f M	pom.xml

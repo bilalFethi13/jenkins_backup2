@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<linked-hash-map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1291.v51fd2a_625da_7">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1713427752531</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3894.vd0f0248b_a_fc4">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3894.vd0f0248b_a_fc4">
+          <arguments>
+            <entry>
+              <string>label</string>
+              <string>agent1</string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1713427754572</startTime>
+        </wf.a.TimingAction>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl plugin="workflow-durable-task-step@1336.v768003e07199">
+          <id>2</id>
+        </org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>4</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3894.vd0f0248b_a_fc4">
+        <parentIds>
+          <string>3</string>
+        </parentIds>
+        <id>4</id>
+        <startId>3</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1713431655458</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@657.v03b_e8115821b_">
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.interrupt(CpsFlowExecution.java:1215)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$2.lambda$interrupt$0(WorkflowRun.java:397)</trace>
+              <trace>jenkins.security.ImpersonatingScheduledExecutorService$1.run(ImpersonatingScheduledExecutorService.java:67)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:840)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1291.v51fd2a_625da_7">
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>8321b816-7070-4b3a-80dc-00c09f7c3deb</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+            <result>
+              <name>ABORTED</name>
+              <ordinal>4</ordinal>
+              <color>ABORTED</color>
+              <completeBuild>false</completeBuild>
+            </result>
+            <causes class="java.util.Arrays$ArrayList">
+              <a class="jenkins.model.CauseOfInterruption-array">
+                <jenkins.model.CauseOfInterruption_-UserInterruption>
+                  <user>bilal13</user>
+                </jenkins.model.CauseOfInterruption_-UserInterruption>
+              </a>
+            </causes>
+            <actualInterruption>true</actualInterruption>
+          </error>
+        </wf.a.ErrorAction>
+        <wf.a.ErrorAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>5</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1291.v51fd2a_625da_7">
+        <parentIds>
+          <string>4</string>
+        </parentIds>
+        <id>5</id>
+        <startId>2</startId>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[3]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1713431655589</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</linked-hash-map>

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-18 19:59:04.903 UTC</timestamp>
+  <md5sum>979d2ff3f75a51c44b9de13885dc8591</md5sum>
+  <fileName>pmd.xml</fileName>
+  <usages>
+    <entry>
+      <string>dockerImagePipe</string>
+      <ranges>17-18,24-27,35,39-40,42,47-48</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

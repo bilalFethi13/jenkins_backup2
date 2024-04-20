@@ -1,0 +1,36 @@
+commit 4c147558480c8eff96831007f70b8bcc9f862d47
+tree 3ee9557587c043aa15bc973d996090be8f468f9d
+parent d1c4def38a15a5137be693837719ec6552504b85
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 18:43:10 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 18:43:10 +0000
+
+    Running pipeline for Checkstyle, PMD, and SpotBugs
+
+:100644 100644 e38bf58f91d4b5321cc67086d3e2ef79133898aa 539eff6d5dbd9866f4801676ed32e54d5d57c4cf M	Jenkinsfile
+commit d1c4def38a15a5137be693837719ec6552504b85
+tree 64f4eb1322e23c2e06d476399c58f720b77c2ecd
+parent a3fcdde39e63adca18e198843046549bb9460d8f
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 18:39:10 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 18:39:10 +0000
+
+    add PMD checkstyle and findbugs plugins
+
+:100644 100644 77fc8e295a9459f5f4440dc64a16211f7d407a85 aed60aeb8a0fee5f71d407dc8ce2f1cafae5cbcb M	pom.xml
+commit a3fcdde39e63adca18e198843046549bb9460d8f
+tree 5980d5896140ffb8213e129d77d499549d2235ef
+parent f62a2207e6576b3bc456f283f222cb018a60d5fc
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 14:44:29 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 14:44:29 +0000
+
+    Update README.md
+
+:100644 100644 b3aa368e43cee7f0e2f7c0bf4dda1232c1db8f33 387a3001312a8b15223c3ba5573f0422ab4ba052 M	README.md
+commit f62a2207e6576b3bc456f283f222cb018a60d5fc
+tree 03ec9133b5a86e7be4270208f20037488d9289e6
+parent a6bbb9b8f7a08d8f9b0da386307bc995dc671b82
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 14:40:19 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 14:40:19 +0000
+
+    Update README.md
+
+:100644 100644 48a007204798cc63d375c53845f732904b5ad28d b3aa368e43cee7f0e2f7c0bf4dda1232c1db8f33 M	README.md

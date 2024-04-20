@@ -1,0 +1,9 @@
+commit f28a9bb7c237cc6674c620225cc2b4152c3f57ed
+tree dafc68bb6ba58d52ebeb6787ae5eb895cf04524a
+parent 97c2ccefde948449db728c58b97adc7d69a79dca
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 19:35:18 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 19:35:18 +0000
+
+    Update file ruleset.xml
+
+:000000 100644 0000000000000000000000000000000000000000 4287640fba76cfc702a92990d722d07ef91f0180 A	ruleset.xml

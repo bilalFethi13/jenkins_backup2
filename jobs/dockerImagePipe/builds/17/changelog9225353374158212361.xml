@@ -1,0 +1,9 @@
+commit d1499b012822fdfdccef7593e85290cfa2c59e93
+tree d20904e69a39e182140a89ae3bfb03c05def5c9b
+parent f28a9bb7c237cc6674c620225cc2b4152c3f57ed
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 19:56:54 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 19:56:54 +0000
+
+    send repport by mail
+
+:100644 100644 07a4856bb3ab639e5348cb427fe90bb6d1dd4058 f5276a4e5608a4e36dc544e412848f317fd4a40b M	Jenkinsfile

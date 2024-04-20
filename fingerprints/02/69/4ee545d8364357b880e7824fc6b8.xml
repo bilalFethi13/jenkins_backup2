@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-18 13:56:53.112 UTC</timestamp>
+  <md5sum>02694ee545d8364357b880e7824fc6b8</md5sum>
+  <fileName>Credential id=f1d0a3f7-bce7-4490-b79d-88005a3c1905 name=bilalfethi/****** (DockerHub access)</fileName>
+  <usages>
+    <entry>
+      <string>dockerImagePipe</string>
+      <ranges>6-35,38-48</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713536076797</timestamp>
+      <itemFullName>dockerImagePipe</itemFullName>
+      <timestamp0>1713534845028</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

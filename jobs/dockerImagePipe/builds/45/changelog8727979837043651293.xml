@@ -1,0 +1,13 @@
+commit d0c055fe8f0a0c420bace91e6ab12ddc4f88e247
+tree 1f07af2c65181a74c329047b6c187c1d3b9476bd
+parent 6b909948c134da56db779321cc169d87eb569472
+author bilal <bilal13.fethi@gmail.com> 2024-04-19 13:48:24 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-19 13:48:24 +0000
+
+    Update 2 files
+    
+    - /Jenkinsfile
+    - /src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+
+:100644 100644 6016cb9dbdf497ab444e87fd39f155121247e82c 5fb45ff3b79617f70339ca1d8ba0948cd4a41413 M	Jenkinsfile
+:100644 100644 399f64f32b0104296c6d1ad8328a0dd2bee4ab18 dadec1e1c4c035b9fe44e7822cce61394012b73b M	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java

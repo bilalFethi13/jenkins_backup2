@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-18 09:13:14.517 UTC</timestamp>
+  <md5sum>afb6f72ce6fec8f076e301aaefa5ced1</md5sum>
+  <fileName>Credential id=8c38b2e3-8d59-472f-ba8c-7a4dcb2fa222 name=adminuser</fileName>
+  <usages>
+    <entry>
+      <string>dockerImagePipe</string>
+      <ranges>2-4</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713445545250</timestamp>
+      <itemFullName>dockerImagePipe</itemFullName>
+      <timestamp0>1713443193922</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713518637072</timestamp>
+      <nodeName>agent1</nodeName>
+      <timestamp0>1713517235630</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713518637080</timestamp>
+      <nodeName>agentTarget</nodeName>
+      <timestamp0>1713517235702</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

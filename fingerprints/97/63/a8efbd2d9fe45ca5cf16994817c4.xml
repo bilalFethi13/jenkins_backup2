@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-19 12:02:15.562 UTC</timestamp>
+  <md5sum>9763a8efbd2d9fe45ca5cf16994817c4</md5sum>
+  <fileName>checkstyle-result.xml</fileName>
+  <usages>
+    <entry>
+      <string>dockerImagePipe</string>
+      <ranges>25-27,35,39-40,42,47-48</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

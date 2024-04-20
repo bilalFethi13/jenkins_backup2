@@ -1,0 +1,9 @@
+commit 2203a39f5156a3b43c511210182e6247c2f578e1
+tree 3942268a22846db45d1d5b74d3599d640c8323e4
+parent 4a0ae1aa6530f958a6e155b214a5af4b12466252
+author bilal <bilal13.fethi@gmail.com> 2024-04-19 13:44:27 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-19 13:44:27 +0000
+
+    Update file BaseEntity.java
+
+:100644 100644 b42b15eb0957c8d4a635339ce348baf634dc73f1 399f64f32b0104296c6d1ad8328a0dd2bee4ab18 M	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java

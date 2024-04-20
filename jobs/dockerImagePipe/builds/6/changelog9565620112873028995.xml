@@ -1,0 +1,27 @@
+commit e49fd5a98f550c1173e46eebffef1a5f954d122a
+tree 76e2a1f7c8d98332877db225eb9b0969aa5dee4e
+parent 3443a234be2c988d0b5f9fce4040191dec9b0685
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 13:58:27 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 13:58:27 +0000
+
+    Update Jenkinsfile
+
+:100644 100644 0dcc0da3b9f741719128b2334f6d8d6fc78fe341 44953af86129bfbb62be72960efa743a91583262 M	Jenkinsfile
+commit 3443a234be2c988d0b5f9fce4040191dec9b0685
+tree d456f2ea622699e1ec3c13c36e9aaa20fa0a8058
+parent d5e1bd1ea211a3290d8eb976689bfa55bd1eb3fa
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 13:56:08 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 13:56:08 +0000
+
+    Update Jenkinsfile
+
+:100644 100644 583abe8c12ee67db39c60d432b656c37b0b66b1c 0dcc0da3b9f741719128b2334f6d8d6fc78fe341 M	Jenkinsfile
+commit d5e1bd1ea211a3290d8eb976689bfa55bd1eb3fa
+tree 16e9276dcbe08463d9c5309d0cba7d8cf45bebe5
+parent 01d3f684b728f692e21c658b7d7fecb78c36fdbf
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 13:41:45 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 13:41:45 +0000
+
+    Update Jenkinsfile
+
+:100644 100644 0b0d3c2079e4947c2f7acd236aba86198c930eb0 583abe8c12ee67db39c60d432b656c37b0b66b1c M	Jenkinsfile

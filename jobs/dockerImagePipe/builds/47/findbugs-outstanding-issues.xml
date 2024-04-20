@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@12.1.0">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>findbugs</id>
+      <name>FindBugs</name>
+      <originReportFile>-</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages>
+        <string>Searching for all files in &apos;/var/lib/jenkins/workspace/dockerImagePipe@2&apos; that match the pattern &apos;/var/lib/jenkins/workspace/findbugsXml.xml&apos;</string>
+        <string>Traversing of symbolic links: enabled</string>
+        <string>Skipping post processing</string>
+        <string>No filter has been set, publishing all 0 issues</string>
+      </infoMessages>
+      <errorMessages>
+        <string>Errors during parsing</string>
+        <string>No files found for pattern &apos;/var/lib/jenkins/workspace/findbugsXml.xml&apos;. Configuration error?</string>
+      </errorMessages>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/dockerImagePipe@2&apos; that match the pattern &apos;/var/lib/jenkins/workspace/findbugsXml.xml&apos;</string>
+    <string>Traversing of symbolic links: enabled</string>
+    <string>Skipping post processing</string>
+    <string>No filter has been set, publishing all 0 issues</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>No valid reference build found</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;findbugs&apos; to build &apos;dockerImagePipe #47&apos;.</string>
+  </infoMessages>
+  <errorMessages>
+    <string>Errors during parsing</string>
+    <string>No files found for pattern &apos;/var/lib/jenkins/workspace/findbugsXml.xml&apos;. Configuration error?</string>
+  </errorMessages>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/visit/Visit.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/system/CrashController.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/model/Person.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/model/package-info.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/Pet.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/PetType.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/PetController.java">
+<error line="23" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/Owner.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/vet/VetController.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/vet/Vets.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/vet/Specialty.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/java/org/springframework/samples/petclinic/vet/Vet.java">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/application-mysql.properties">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/application.properties">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/messages/messages_en.properties">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/messages/messages_de.properties">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/messages/messages_es.properties">
+</file>
+<file name="/var/lib/jenkins/workspace/dockerImagePipe/src/main/resources/messages/messages.properties">
+</file>
+</checkstyle>

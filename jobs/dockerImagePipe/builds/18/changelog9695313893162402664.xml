@@ -1,0 +1,9 @@
+commit 3ace59d1d3d7b5ef529583988ee68f86915b31ea
+tree da9f7762b724ff1ca725df7e6232bb23721e1df2
+parent d1499b012822fdfdccef7593e85290cfa2c59e93
+author bilal <bilal13.fethi@gmail.com> 2024-04-18 20:05:26 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-18 20:05:26 +0000
+
+    add semicolon error
+
+:100644 100644 4cb9ffc0c0833bcd03418f2dc7460b0acf3e44bf 0be3ed7e3b4c0eebb3927e58beedb60cb5f1c2b3 M	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
