@@ -1,26 +1,19 @@
-Started at Fri Apr 19 09:41:02 UTC 2024
+Started at Mon May 13 08:28:06 UTC 2024
 Checking checkstyle_warning
 Checking dockerImagePipe
 Checking emailTestPipeline
 Checking firstPipeline
-Checking Freestyle Project 033
-Checking Freestyle Project 07
 Checking javaEhealth
+Checking jmeter-freestyle
+Checking jmeterMultiVM
 Checking JmeterTest
+Checking owasp
+Checking owasp-zap-jenkins
 Checking repportByMail
+Checking sonarqube-jenkins
 Checking test_job
 Checking testEmailNotifications
-Finished at Fri Apr 19 09:41:02 UTC 2024. 224ms
-Started at Sat Apr 20 09:41:02 UTC 2024
-Checking checkstyle_warning
-Checking dockerImagePipe
-Checking emailTestPipeline
-Checking firstPipeline
-Checking Freestyle Project 033
-Checking Freestyle Project 07
-Checking javaEhealth
-Checking JmeterTest
-Checking repportByMail
-Checking test_job
-Checking testEmailNotifications
-Finished at Sat Apr 20 09:41:02 UTC 2024. 49ms
+Checking tutorials_FE_project
+Checking tuturial_BE_project
+Checking tuturial_BE_project_deployement
+Finished at Mon May 13 08:28:06 UTC 2024. 231ms

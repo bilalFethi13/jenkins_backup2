@@ -1,0 +1,18 @@
+commit 2f96f43623b4627a01fdea6e543021961134e7e9
+tree 218a40762a196854263f49b911476424d4e91fef
+parent 71851d8ffe08e81c471eff7de210e324c9dfd94f
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 16:49:22 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 16:49:22 +0000
+
+    Update file deploy.Jenkinsfile
+
+:100644 100644 86cb8dcd85df2112b2bfac61092c7a5209b9472c c2ebcfe9c22043885be420762d943ce41642a6e5 M	jenkins/deploy.Jenkinsfile
+commit 71851d8ffe08e81c471eff7de210e324c9dfd94f
+tree c56602912162522de9bdbe194508f2a9e43de38d
+parent f7a07947fe9bef0beac1dca212bc8c7fb672767c
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 16:49:03 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 16:49:03 +0000
+
+    Update file deploy.Jenkinsfile
+
+:100644 100644 d5632d69f830ba90b9d1ef8fc9e2e28735e13f72 86cb8dcd85df2112b2bfac61092c7a5209b9472c M	jenkins/deploy.Jenkinsfile

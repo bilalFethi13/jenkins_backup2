@@ -1,0 +1,9 @@
+commit 8da859971abb8e424cd5d9ccad17aa6794fc2fbb
+tree ef8c9775c34fb991269cfb884357f6d8d8f9842c
+parent 7c6a119239031fc9cd9fca46c3d7c78d1016f156
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 16:55:52 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 16:55:52 +0000
+
+    Update file .env
+
+:100644 100644 37a323215386e5659054c933699b7b03129bf160 55e965e09bfa1851ac707795a3b17eae4e705d90 M	frontend/.env

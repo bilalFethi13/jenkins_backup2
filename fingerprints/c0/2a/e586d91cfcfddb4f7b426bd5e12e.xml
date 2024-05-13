@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-02 14:37:10.302 UTC</timestamp>
+  <md5sum>c02ae586d91cfcfddb4f7b426bd5e12e</md5sum>
+  <fileName>Credential id=adminGitlabId name=bilal13.fethi@gmail.com/****** (credentials for gitlab repositories)</fileName>
+  <usages>
+    <entry>
+      <string>tutorials_FE_project</string>
+      <ranges>16-20</ranges>
+    </entry>
+    <entry>
+      <string>tuturial_BE_project_deployement</string>
+      <ranges>2-26,29-38</ranges>
+    </entry>
+    <entry>
+      <string>tuturial_BE_project</string>
+      <ranges>54-58</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715274185492</timestamp>
+      <itemFullName>tuturial_BE_project</itemFullName>
+      <timestamp0>1715266669156</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715274235082</timestamp>
+      <itemFullName>tutorials_FE_project</itemFullName>
+      <timestamp0>1715266737712</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715274385598</timestamp>
+      <itemFullName>tuturial_BE_project_deployement</itemFullName>
+      <timestamp0>1715273759810</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

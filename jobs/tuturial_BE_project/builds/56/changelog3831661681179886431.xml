@@ -1,0 +1,102 @@
+commit 89a8f29744ca321d9d438008e03787a8ab5860a9
+tree a3bdef7b93fbd59b5f93fd869820b00c9d77f384
+parent 97d9220a82b6b9bdf7e9038d95fd0c32a5ac76cc
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 14:23:51 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 14:23:51 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 c8dbad22e63ae1bd62f82fc74fd49d45eb149ddc 78617287668f744e7d38aba63bfa9a9e6b99ccf5 M	jenkins/build-react-app.Jenkinsfile
+commit 97d9220a82b6b9bdf7e9038d95fd0c32a5ac76cc
+tree f704f3f3f1f92eca879e1444bd98cc27ebdf6e0e
+parent c98f1921e611bd8a3f1beec9991b79a2d8a82322
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 14:17:53 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 14:17:53 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 91fea3fc9eefea1fbd292fc7629ef97fada15887 c8dbad22e63ae1bd62f82fc74fd49d45eb149ddc M	jenkins/build-react-app.Jenkinsfile
+commit c98f1921e611bd8a3f1beec9991b79a2d8a82322
+tree 5cd4918ef90608f2700ea9a63f9b9c303a762e06
+parent 4e7ed854b776fe39ab0b6c6385e2ec5908e87082
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 14:07:39 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 14:07:39 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 d35931eb6c537e4eb879685f6575414a2d0ab81b 91fea3fc9eefea1fbd292fc7629ef97fada15887 M	jenkins/build-react-app.Jenkinsfile
+commit 4e7ed854b776fe39ab0b6c6385e2ec5908e87082
+tree 4328870e79c94e401d2b30c25ccd12f0b5f6ba17
+parent 1285b88c483b892df391cc86fed80322dc903c18
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 13:48:00 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 13:48:00 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 6db028dae6a555f5b12e8d87de16919add22883c d35931eb6c537e4eb879685f6575414a2d0ab81b M	jenkins/build-react-app.Jenkinsfile
+commit 1285b88c483b892df391cc86fed80322dc903c18
+tree 6f80d689d22c36dbe00eab91c5d4b11dabf2dc09
+parent 029f42eeed1a66df2d0ec3f7c52188fcca389058
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 13:42:46 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 13:42:46 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 6a7bbcd954e75380af00a94e0a038692c18fcf11 6db028dae6a555f5b12e8d87de16919add22883c M	jenkins/build-react-app.Jenkinsfile
+commit 029f42eeed1a66df2d0ec3f7c52188fcca389058
+tree 942f731b2c67c856d4f172148c0a9a4025d755a2
+parent 077fb2430788a2dc4efb217563a9a10daac9dd82
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 13:33:07 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 13:33:07 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 0af63f4092885e3e09e9ed4b3ae4c8365366e659 6a7bbcd954e75380af00a94e0a038692c18fcf11 M	jenkins/build-react-app.Jenkinsfile
+commit 077fb2430788a2dc4efb217563a9a10daac9dd82
+tree 63985908d47f9698c0806c55cda7ae3c132a0d47
+parent d7b74d277a1d425174faaab6322cede2c770cdfa
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 13:30:32 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 13:30:32 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 669d4e2c4b645bb95f185bc7bf2b817a5ce77488 0af63f4092885e3e09e9ed4b3ae4c8365366e659 M	jenkins/build-react-app.Jenkinsfile
+commit d7b74d277a1d425174faaab6322cede2c770cdfa
+tree 944eb71f7fe8164bb1e613ee5cd58425fa36503a
+parent c6af996f369dd9f9e570067e46c0898358bff116
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 13:23:43 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 13:23:43 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 d58e6e580a4e1d8ffff2284ad38bb05d29ba8cc0 669d4e2c4b645bb95f185bc7bf2b817a5ce77488 M	jenkins/build-react-app.Jenkinsfile
+commit c6af996f369dd9f9e570067e46c0898358bff116
+tree 2cced6514a8c22ebb1064f2873c86e5cae66f90d
+parent 6081c442446bfc5646a238505278684cba719a0c
+author bilal <bilal13.fethi@gmail.com> 2024-05-07 15:01:31 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-07 15:01:31 +0000
+
+    Update file package.json
+
+:100644 100644 733c298c00206917c155e3b7f1a60d169b916d9c a79d4c211985bda092b5ecc78f2becbd38a56d4c M	frontend/package.json
+commit 6081c442446bfc5646a238505278684cba719a0c
+tree 9714eb77c65a5c2419efd2151238daccd6c84062
+parent 9ffa1d6347602be6c5561dcf9124e8c49e516dd5
+author bilal <bilal13.fethi@gmail.com> 2024-05-07 14:59:42 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-07 14:59:42 +0000
+
+    add jest configuration
+
+:100644 100644 a79d4c211985bda092b5ecc78f2becbd38a56d4c 733c298c00206917c155e3b7f1a60d169b916d9c M	frontend/package.json
+:000000 100644 0000000000000000000000000000000000000000 ac957ce8c3e21430dbe409dfe4903fd518bd6316 A	frontend/src/jest.config.json
+:100644 100644 8f2609b7b3e0e3897ab3bcaad13caf6876e48699 f83596b7c1330f86b4d46c9ce9b4d231337af58f M	frontend/src/setupTests.js
+:100644 100644 dba48570e3611836c38498bf851e05e8d55fc4e1 3619aa3ca413e10c53e1d1d37a7172a8598f0823 M	jenkins/build-spring-boot-app.Jenkinsfile
+commit 9ffa1d6347602be6c5561dcf9124e8c49e516dd5
+tree bfc08e3b8f72a49082f1a939b1356ad1d4be2473
+parent a10754932c38111bc558247a9544150215851c15
+author bilal <bilal13.fethi@gmail.com> 2024-05-07 14:49:15 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-07 14:49:15 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 27c9db1e2aa3b59019cac840288a52f7df56046e d58e6e580a4e1d8ffff2284ad38bb05d29ba8cc0 M	jenkins/build-react-app.Jenkinsfile

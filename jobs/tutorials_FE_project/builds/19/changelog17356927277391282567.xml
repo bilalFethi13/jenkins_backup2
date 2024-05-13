@@ -1,0 +1,9 @@
+commit b0f2f42f81e9af9d70cf3c1ae37afb65ec249263
+tree b2e1be54abee8e3661fecd240b590cfbf93ee1af
+parent 0c3794915d9563bb1f14d7d71ea2b34817ffc4ca
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 14:58:43 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 14:58:43 +0000
+
+    Update file build-react-app.Jenkinsfile
+
+:100644 100644 11646c6184018dbd8597d624e6369571bce86183 0b5cfc7f7f0214f7508f8d0297f57fa35306a43b M	jenkins/build-react-app.Jenkinsfile

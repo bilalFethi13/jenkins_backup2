@@ -1,0 +1,9 @@
+commit b035a15c4fa548b7282ae5326942f7df37e9af7c
+tree 75847b37ed50052309b4383b9fe50e9534d3bd66
+parent ab55f2668b6e3056150ed25b3c7894023db47e44
+author bilal <bilal13.fethi@gmail.com> 2024-05-03 11:26:26 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-03 11:26:26 +0000
+
+    Update file deploy.Jenkinsfile
+
+:100644 100644 c97ce76c7521cab1fcd60d676b0d35962528d88d 2c776a2dd946726bb15fc5546a6b9e4cdfd56863 M	jenkins/deploy.Jenkinsfile

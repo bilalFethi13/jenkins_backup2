@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-02 21:45:35.172 UTC</timestamp>
+  <md5sum>5b6b0f3e3a0347f9484e448eb4880065</md5sum>
+  <fileName>Credential id=dockerhub name=bilalfethi/****** (credentials for dockerHub)</fileName>
+  <usages>
+    <entry>
+      <string>tutorials_FE_project</string>
+      <ranges>19-20</ranges>
+    </entry>
+    <entry>
+      <string>tuturial_BE_project</string>
+      <ranges>55-58</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

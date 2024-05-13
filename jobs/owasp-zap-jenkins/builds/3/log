@@ -1,0 +1,17 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Running as SYSTEM
+Building remotely on [8mha:////4DsB8ZxXwWMajaMss7Yabcg2LGWzs4T2vH28SX0zP9O/AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/cT01LySkMSi9NQSAMiO0aHKAAAA[0magentTarget (dev) in workspace /home/adminuser/workspace/owasp-zap-jenkins
+[owasp-zap-jenkins] $ /bin/sh -xe /tmp/jenkins7601117013764117164.sh
++ owasp-zap -port 8081 -cmd -quickurl https://hackxpert.com -quickprogress -quickout /var/lib/out2.xml
+Found Java version 17.0.10
+Available memory: 3903 MB
+Using JVM args: -Xmx975m
+Accessing URL
+Using traditional spider
+Active scanning
+[=                   ] 8% |[==                  ] 11% /[====                ] 20% -[====                ] 22% \[=======             ] 38% |[=======             ] 38% /[=========           ] 45% -[=========           ] 46% \[============        ] 64% |[=============       ] 68% /[=================   ] 86% -[=================   ] 86% \[==================  ] 92% |[==================  ] 92% /[==================  ] 93% -[==================  ] 93% \[====================] 100% 
+Attack complete
+Writing results to /var/lib/out2.xml
+The directory of given '-quickout' file is not writable:
+/var/lib
+Finished: SUCCESS

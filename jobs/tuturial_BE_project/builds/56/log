@@ -1,0 +1,362 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Obtained jenkins/build-spring-boot-app.Jenkinsfile from git https://gitlab.com/bifethi/react-springboot-products.git
+[8mha:////4CNGB/hLBvfy//DSv0vZkW5oajASR9xIYFvwe0kdhar+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4O++ejJR/SrowDUdL9BFbDpYPsPFkr1RJOlizoT/TT0sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EHUeEJfYUcw42xGIjyJSA6D24HuY2YosDB7n7Ei1lMDAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/ZLU4pKQxKL01BJ9ABUqxprKAAAA[0mtestTarget in /home/adminuser/workspace/tuturial_BE_project
+[8mha:////4Pa+AHbcBDXXbgRJsGASuhgb1MNstzYcuyvE9Dt4Er6aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FY58Ti/B1VL8Y8BvJs5j6iz3uUqC7EiW1LLbqpYKcP7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NaDEbanVyM7eXs14wRVRm1j1idd+QAs0WWewNlZ2poHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AHDGmR9S4XVHrUL9o4WRHed4gYCOLSkeXhSFd8nhldtAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential adminGitlabId
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/adminuser/workspace/tuturial_BE_project/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/bifethi/react-springboot-products.git # timeout=10
+Fetching upstream changes from https://gitlab.com/bifethi/react-springboot-products.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials credentials for gitlab repositories
+ > git fetch --tags --force --progress -- https://gitlab.com/bifethi/react-springboot-products.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 89a8f29744ca321d9d438008e03787a8ab5860a9 (refs/remotes/origin/main)
+Commit message: "Update file build-react-app.Jenkinsfile"
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89a8f29744ca321d9d438008e03787a8ab5860a9 # timeout=10
+ > git rev-list --no-walk a10754932c38111bc558247a9544150215851c15 # timeout=10
+[8mha:////4HEyTv9n4Bpl6VP+T27eFM6LQbszRgqDBg6A/XzVzj4pAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4MPaEb6kUpZ+qzbsjqPS6Difn1B4/HaQZmN1SLFpkEUoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FHZEx0M0grQgp29rnwmuUYo6PXVJoJSE65IMgyYIOqUAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GEIaWiTFun3UzwOy1lVjv9W7HwgxrBO0BGx/H3ItUr8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LrjJmU02Y1uLNTOdvQtLeProBrk1PtY2Ap0yjFhBQzRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] timeout
+Timeout set to expire in 1 hr 0 min
+[8mha:////4HhEip2DEus7PfDtVgc1rCG1ofkGWmUB0eIYjnt0iwdfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4BuZW4eMzISIIVjBI6o00d7sHvgJQQp54wZYCUjQM5tuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4G9p/UUB5LLzcDk20Ozuh/kP2ylQxm71fEfRJCvYtEPOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Verification)
+[8mha:////4MTat6Nq1LpDmRoUv+fggQzmsGs7j120PV73AdbOFGWJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ whoami
+adminuser
+[8mha:////4K1ZY34Nm9gogP8LVVYE6INx5zsB6EnhgJJWmJ0hP9ASAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ pwd
+/home/adminuser/workspace/tuturial_BE_project
+[8mha:////4G1EfIKQdvA4ithoFUYYRLYlEFQZQDKYSkwtCLcg+PQhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4CtRklXipZYYgLk4ahLdNxLCDUc62VvGuhle0gWn8uJ8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4JZCqMpesjc33kFCRuFV/kS3XC4H0+oHyJVfwywupGtvAAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] stage
+[8mha:////4Bv35uxxyf62rxuoyijW22rYdN037cTKBGz0Y90Mh8zxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (compile project)
+[8mha:////4Psv++Xs/Dn3roOaO3wPK7lSjQyw6lRPjcdqlX4u37ZVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] dir
+Running in /home/adminuser/workspace/tuturial_BE_project/backend
+[8mha:////4OeVVAkGE8SJDsG47djnrzmV8J0D9HxCzJzsPKXKkrP8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4GCZutovtWkyxFPNWfmzwiwM4aed3dBCeKT6QZkBWQQ0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: MySonarToken
+[8mha:////4GL3btOP7xprvs2DKdoi3Qf7BNFz8b52Uiqv9NJh1xEMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4HsWubNx+8A2gCJOq3Yel3d6aqCw1P6vOGFhREaB9IKUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ mvn clean compile sonar:sonar
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.example:Lab12-Backend[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Lab12-Backend 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/adminuser/workspace/tuturial_BE_project/backend/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 8 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.example:Lab12-Backend[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Lab12-Backend 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:3.11.0.3922:sonar[m [1m(default-cli)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] 14:25:33.132 Java 17.0.10 Private Build (64-bit)
+[[1;34mINFO[m] 14:25:33.133 Linux 6.5.0-1019-azure (amd64)
+[[1;34mINFO[m] 14:25:33.412 User cache: /home/adminuser/.sonar/cache
+[[1;34mINFO[m] 14:25:33.583 Communicating with SonarQube Server 8.9.10
+[[1;34mINFO[m] 14:25:33.603 Default locale: "en", source code encoding: "UTF-8"
+[[1;34mINFO[m] 14:25:35.110 Load global settings
+[[1;34mINFO[m] 14:25:35.300 Load global settings (done) | time=190ms
+[[1;34mINFO[m] 14:25:35.302 Server id: BF41A1F2-AY9NnwVIQDObn8kXTgSI
+[[1;34mINFO[m] 14:25:35.304 User cache: /home/adminuser/.sonar/cache
+[[1;34mINFO[m] 14:25:35.306 Load/download plugins
+[[1;34mINFO[m] 14:25:35.307 Load plugins index
+[[1;34mINFO[m] 14:25:35.372 Load plugins index (done) | time=66ms
+[[1;34mINFO[m] 14:25:35.746 Load/download plugins (done) | time=440ms
+[[1;34mINFO[m] 14:25:36.975 Process project properties
+[[1;34mINFO[m] 14:25:36.981 Process project properties (done) | time=6ms
+[[1;34mINFO[m] 14:25:36.982 Execute project builders
+[[1;34mINFO[m] 14:25:36.983 Execute project builders (done) | time=1ms
+[[1;34mINFO[m] 14:25:36.985 Project key: com.example:Lab12-Backend
+[[1;34mINFO[m] 14:25:36.985 Base dir: /home/adminuser/workspace/tuturial_BE_project/backend
+[[1;34mINFO[m] 14:25:36.986 Working dir: /home/adminuser/workspace/tuturial_BE_project/backend/target/sonar
+[[1;34mINFO[m] 14:25:37.228 Load project settings for component key: 'com.example:Lab12-Backend'
+[[1;34mINFO[m] 14:25:37.260 Load project settings for component key: 'com.example:Lab12-Backend' (done) | time=32ms
+[[1;34mINFO[m] 14:25:37.347 Auto-configuring with CI 'Jenkins'
+[[1;34mINFO[m] 14:25:37.349 Load quality profiles
+[[1;34mINFO[m] 14:25:37.494 Load quality profiles (done) | time=144ms
+[[1;34mINFO[m] 14:25:37.496 Auto-configuring with CI 'Jenkins'
+[[1;34mINFO[m] 14:25:37.499 Load active rules
+[[1;34mINFO[m] 14:25:40.123 Load active rules (done) | time=2625ms
+[[1;34mINFO[m] 14:25:40.410 Indexing files...
+[[1;34mINFO[m] 14:25:40.410 Project configuration:
+[[1;34mINFO[m] 14:25:40.549 10 files indexed
+[[1;34mINFO[m] 14:25:40.549 0 files ignored because of scm ignore settings
+[[1;34mINFO[m] 14:25:40.550 Quality profile for java: Sonar way
+[[1;34mINFO[m] 14:25:40.550 Quality profile for xml: Sonar way
+[[1;34mINFO[m] 14:25:40.550 ------------- Run sensors on module Lab12-Backend
+[[1;34mINFO[m] 14:25:40.962 Load metrics repository
+[[1;34mINFO[m] 14:25:40.987 Load metrics repository (done) | time=25ms
+[[1;34mINFO[m] 14:25:42.905 Sensor JavaSquidSensor [java]
+[[1;34mINFO[m] 14:25:43.476 Configured Java source version (sonar.java.source): 17
+[[1;34mINFO[m] 14:25:43.486 JavaClasspath initialization
+[[1;34mINFO[m] 14:25:43.533 JavaClasspath initialization (done) | time=47ms
+[[1;34mINFO[m] 14:25:43.534 JavaTestClasspath initialization
+[[1;34mINFO[m] 14:25:43.535 JavaTestClasspath initialization (done) | time=1ms
+[[1;34mINFO[m] 14:25:43.550 Java Main Files AST scan
+[[1;34mINFO[m] 14:25:43.553 8 source files to be analyzed
+[[1;34mINFO[m] 14:25:43.558 Load project repositories
+[[1;34mINFO[m] 14:25:43.605 Load project repositories (done) | time=47ms
+[[1;34mINFO[m] 14:25:46.894 8/8 source files have been analyzed
+[[1;34mINFO[m] 14:25:46.901 Java Main Files AST scan (done) | time=3351ms
+[[1;34mINFO[m] 14:25:46.901 Java Test Files AST scan
+[[1;34mINFO[m] 14:25:46.913 1 source file to be analyzed
+[[1;34mINFO[m] 14:25:47.576 1/1 source file has been analyzed
+[[1;34mINFO[m] 14:25:47.576 Java Test Files AST scan (done) | time=675ms
+[[1;34mINFO[m] 14:25:47.576 Java Generated Files AST scan
+[[1;34mINFO[m] 14:25:47.577 0 source files to be analyzed
+[[1;34mINFO[m] 14:25:47.577 0/0 source files have been analyzed
+[[1;34mINFO[m] 14:25:47.577 Java Generated Files AST scan (done) | time=1ms
+[[1;34mINFO[m] 14:25:47.578 Sensor JavaSquidSensor [java] (done) | time=4673ms
+[[1;34mINFO[m] 14:25:47.578 Sensor CSS Rules [cssfamily]
+[[1;34mINFO[m] 14:25:47.579 No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[[1;34mINFO[m] 14:25:47.579 Sensor CSS Rules [cssfamily] (done) | time=1ms
+[[1;34mINFO[m] 14:25:47.579 Sensor JaCoCo XML Report Importer [jacoco]
+[[1;34mINFO[m] 14:25:47.581 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[[1;34mINFO[m] 14:25:47.582 No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[[1;34mINFO[m] 14:25:47.582 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+[[1;34mINFO[m] 14:25:47.582 Sensor C# Project Type Information [csharp]
+[[1;34mINFO[m] 14:25:47.583 Sensor C# Project Type Information [csharp] (done) | time=1ms
+[[1;34mINFO[m] 14:25:47.584 Sensor C# Properties [csharp]
+[[1;34mINFO[m] 14:25:47.585 Sensor C# Properties [csharp] (done) | time=1ms
+[[1;34mINFO[m] 14:25:47.588 Sensor SurefireSensor [java]
+[[1;34mINFO[m] 14:25:47.588 parsing [/home/adminuser/workspace/tuturial_BE_project/backend/target/surefire-reports]
+[[1;34mINFO[m] 14:25:47.589 Sensor SurefireSensor [java] (done) | time=1ms
+[[1;34mINFO[m] 14:25:47.590 Sensor JavaXmlSensor [java]
+[[1;34mINFO[m] 14:25:47.596 1 source file to be analyzed
+[[1;34mINFO[m] 14:25:47.993 1/1 source file has been analyzed
+[[1;34mINFO[m] 14:25:47.993 Sensor JavaXmlSensor [java] (done) | time=403ms
+[[1;34mINFO[m] 14:25:47.994 Sensor HTML [web]
+[[1;34mINFO[m] 14:25:47.996 Sensor HTML [web] (done) | time=2ms
+[[1;34mINFO[m] 14:25:47.997 Sensor XML Sensor [xml]
+[[1;34mINFO[m] 14:25:48.113 1 source file to be analyzed
+[[1;34mINFO[m] 14:25:48.260 1/1 source file has been analyzed
+[[1;34mINFO[m] 14:25:48.262 Sensor XML Sensor [xml] (done) | time=265ms
+[[1;34mINFO[m] 14:25:48.268 Sensor VB.NET Project Type Information [vbnet]
+[[1;34mINFO[m] 14:25:48.269 Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[[1;34mINFO[m] 14:25:48.269 Sensor VB.NET Properties [vbnet]
+[[1;34mINFO[m] 14:25:48.270 Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[[1;34mINFO[m] 14:25:48.278 ------------- Run sensors on project
+[[1;34mINFO[m] 14:25:48.288 Sensor Zero Coverage Sensor
+[[1;34mINFO[m] 14:25:48.296 Sensor Zero Coverage Sensor (done) | time=8ms
+[[1;34mINFO[m] 14:25:48.297 Sensor Java CPD Block Indexer
+[[1;34mINFO[m] 14:25:48.317 Sensor Java CPD Block Indexer (done) | time=20ms
+[[1;34mINFO[m] 14:25:48.325 CPD Executor 4 files had no CPD blocks
+[[1;34mINFO[m] 14:25:48.326 CPD Executor Calculating CPD for 4 files
+[[1;34mINFO[m] 14:25:48.336 CPD Executor CPD calculation finished (done) | time=10ms
+[[1;34mINFO[m] 14:25:48.400 Analysis report generated in 61ms, dir size=115 KB
+[[1;34mINFO[m] 14:25:48.451 Analysis report compressed in 51ms, zip size=29 KB
+[[1;34mINFO[m] 14:25:48.487 Analysis report uploaded in 36ms
+[[1;34mINFO[m] 14:25:48.489 ANALYSIS SUCCESSFUL, you can browse http://4.212.242.142:9000/dashboard?id=com.example%3ALab12-Backend
+[[1;34mINFO[m] 14:25:48.490 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[[1;34mINFO[m] 14:25:48.490 More about the report processing at http://4.212.242.142:9000/api/ce/task?id=AY9dvvu7yxwUHwQaiu4T
+[[1;34mINFO[m] 14:25:48.496 Analysis total time: 12.577 s
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  24.579 s
+[[1;34mINFO[m] Finished at: 2024-05-09T14:25:48Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4MLakYXUp3ZnLbq4xBazb6nz8QGT5ORzBeNZXNihPzUsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4GK1ZrnWzE8Fevx5k0HkNbQVRChmE8cqnzGjoGG3hZMSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4G4w4gZaQkbnDrcBW3Y4yrNpQDeD4l/CLviG92/Ls4YyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N5XuKbK+AAAA[0m[Pipeline] }
+[8mha:////4MoGWzSPYI1gB250hoK93vztm9f8PpzPbnYy1ASIhGdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1B3+EVkS+AAAA[0m[Pipeline] // dir
+[8mha:////4L49xVgMyAtLD7sPoa+gT96snIdMcrkvgUaAQMBFu7xfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B2AGAxa+AAAA[0m[Pipeline] }
+[8mha:////4FKmlTUxxupxkBZX0C0hd1vCxUjYayy4Ol7sg8CUKCoEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B1hEkOe+AAAA[0m[Pipeline] // stage
+[8mha:////4E3RcjtLmVxiJ4iKWT/dVp9CiltnORk8GTNnUO2np7mlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqCNiYo2ycIKQhpA2+r/8pLQTJ+Jq3IFAJSY8WLYl6z1fUEWGA7ETncXeYzReDGF0OYmJuL8EmkRHZ2EIIwUrlJ0Utfa4VEXJwqKihJWEtUUTKHp0CTay03ddB42uPiXO215C6dsbPKCQmZw0p2+ZGbbXsY2EP85fAMxDgnLXZGuaz7N6AyJ3BZ/CAAAA[0m[Pipeline] stage
+[8mha:////4HX84qSytWxuKFBV4VD0D5xL7DCdLRG0JZaCLkrFP2HnAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Integration Tests)
+[8mha:////4I+PPdlB8IfsyQtE0teYG95eN48zWjZhBtXwut5/VWkUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] dir
+Running in /home/adminuser/workspace/tuturial_BE_project/backend
+[8mha:////4NX/ONOKqxOVnLxHhbjE5WazVPZYdDR2nWUDu2d/fA9mAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4ImCg8e5/pBxPsCWMuOzY7cI4Slvpxyreknhgi0AaXVKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] echo
+Running integration tests...
+[8mha:////4NS5oO8hAxAo+OG0KGHA+iiQobnAdcHrKGjYKQVux3nTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] sh
++ mvn verify -DskipTests=true
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.example:Lab12-Backend[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Lab12-Backend 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/adminuser/workspace/tuturial_BE_project/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0:test[m [1m(default-test)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/adminuser/workspace/tuturial_BE_project/backend/target/Lab12-Backend-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.1.4:repackage[m [1m(repackage)[m @ [36mLab12-Backend[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact /home/adminuser/workspace/tuturial_BE_project/backend/target/Lab12-Backend-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[[1;34mINFO[m] The original artifact has been renamed to /home/adminuser/workspace/tuturial_BE_project/backend/target/Lab12-Backend-0.0.1-SNAPSHOT.jar.original
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.446 s
+[[1;34mINFO[m] Finished at: 2024-05-09T14:26:01Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4AWIXrv7ZPSA7mgEJdxZv2QLzJ7mQ9e/b4yeRZLnGoP1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] }
+[8mha:////4Esn68AuxeNhDYbnx+eFcZWQ6hNxgYXZejN9zGZaiWKiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AETHo4GvgAAAA==[0m[Pipeline] // dir
+[8mha:////4G9SS4i0hpunYSbKmcc7P1+qngJLyTEFEv/CbTs7bcIWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPyD91bq+AAAA[0m[Pipeline] }
+[8mha:////4D4p6qsAjDxQfrBljAYxWrx3lNuf4/nHpewuUJz+egkUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPy0aJaK+AAAA[0m[Pipeline] // stage
+[8mha:////4HBCjGAoMhhyMgyXFBK1WStWhm25P0hirInmyQLELV8sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jtu++TyrN6xJolrCAAAA[0m[Pipeline] stage
+[8mha:////4MiEVZbXJkRHvRZWwOMnzXkaha+w9xbvHvFHIhrrQmcdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Quality Gate)
+[8mha:////4KEbtbwYzStSHbsRk259lymcFLMNX5UsThKBWVIECGdiAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AY9dvvu7yxwUHwQaiu4T' on server 'MySonarToken'
+SonarQube task 'AY9dvvu7yxwUHwQaiu4T' status is 'SUCCESS'
+SonarQube task 'AY9dvvu7yxwUHwQaiu4T' completed. Quality gate is 'OK'
+[8mha:////4FXLzhMa+O7pHf7uBR+FoMj8Jpgm2nwTSfzQuPSrtc5BAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4HPGLdUQOXMLUaGoTwge8Yre5Y3lPXR7PR/UBAELN23DAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GX/cjaRKXSNAxISEP+a/It5JoY+R1lkomWruiUQXSclAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm9vuWUwwgAAAA==[0m[Pipeline] stage
+[8mha:////4EzWpsuPsOCfV0oPYcOGOk7ULikj4+Drz8PQX6p9orWLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (Docker Build)
+[8mha:////4OUrSOZlPge0EAKNRKNJPBcqs4uq/km1F7hzY9uEeqTHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] dir
+Running in /home/adminuser/workspace/tuturial_BE_project/backend
+[8mha:////4Ft24xpXUc07WJ9mfqJRROU9wjzKKJKByKrzWhzHwacKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
+[8mha:////4MTn8hSSN07HPYF06Eh+rqjralTaE6ssMVBR7L/+VXT2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] sh
++ docker build -t bilalfethi/react-springboot-products-spring-boot-app:latest .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 690B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 ...
+
+#3 [auth] library/openjdk:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [auth] library/maven:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [internal] load metadata for docker.io/library/maven:3.6.3-openjdk-17
+#5 ...
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 DONE 1.4s
+
+#5 [internal] load metadata for docker.io/library/maven:3.6.3-openjdk-17
+#5 DONE 1.4s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 2B done
+#6 DONE 0.0s
+
+#7 [build 1/5] FROM docker.io/library/maven:3.6.3-openjdk-17@sha256:7f46feaf907771cd14e38d0b901d6372e50e68bf4e2197b0f181eb16f051081b
+#7 DONE 0.0s
+
+#8 [stage-1 1/3] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
+#8 DONE 0.0s
+
+#9 [internal] load build context
+#9 transferring context: 1.66kB done
+#9 DONE 0.0s
+
+#10 [stage-1 2/3] WORKDIR /app
+#10 CACHED
+
+#11 [build 2/5] WORKDIR /app
+#11 CACHED
+
+#12 [build 3/5] COPY ./pom.xml /app
+#12 CACHED
+
+#13 [build 4/5] COPY ./src /app/src
+#13 CACHED
+
+#14 [build 5/5] RUN mvn clean package -Dmaven.test.skip=true
+#14 CACHED
+
+#15 [stage-1 3/3] COPY --from=build /app/target/*.jar app.jar
+#15 CACHED
+
+#16 exporting to image
+#16 exporting layers done
+#16 writing image sha256:f0e3319411a208d59285ccd0cb254029c6ea74cf425166ae69fd28df8bceba87 0.0s done
+#16 naming to docker.io/bilalfethi/react-springboot-products-spring-boot-app:latest 0.0s done
+#16 DONE 0.1s
+[8mha:////4Br4c7qPUCjatKryVoak2VhXnmQENKIP+ZGIbBplIlkmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5YEWne+AAAA[0m[Pipeline] }
+[8mha:////4DBZx2I4z8wSx6e9Q/Kyouq/4xHzmaCylzry5MnUDsFAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] // dir
+[8mha:////4GNOIQoc1w8WkRUwr+yqOIQITrESQjODQ0HbUaKenHk0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpSIEQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AH4XsO2vgAAAA==[0m[Pipeline] }
+[8mha:////4FUh5HB98jq8K3Mglhb5fzT2jOPbUyCgFvcFMpn+jheaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAEJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/AHFBHvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H6h3kPHwyh2Bn19z9Dn8NAw+lLvfYDy61ZZvrC7mkAWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm8OAERnwgAAAA==[0m[Pipeline] stage
+[8mha:////4BYMJtSiqvK9BooHKH0ukjPemKmK/VGlyVDBE/he4QPwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Docker Push)
+[8mha:////4LyAr8NLDo7koV83fQmDpQDOLxx83CLJCteV2benPnlrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $bilal13docker
+[8mha:////4PULdAd6KkBtym7kQsOH1c1VqRCAN1yPeMpEKiaAX4qJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] {
+[8mha:////4Conquxh6YTITdhGidsX8NMocgFmPmiAqzSG9RdZI/CKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBk5Fu7e+AAAA[0m[Pipeline] sh
++ docker login -u bilalfethi -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/adminuser/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4A6G2uxTLrMp8ug/hDVNbQi2S3pv3bQ+xzA1SHPke7+zAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN40Wlpy+AAAA[0m[Pipeline] sh
++ docker push bilalfethi/react-springboot-products-spring-boot-app:latest
+The push refers to repository [docker.io/bilalfethi/react-springboot-products-spring-boot-app]
+b4cb4859f173: Preparing
+3afae77a7883: Preparing
+dc9fa3d8b576: Preparing
+27ee19dc88f2: Preparing
+c8dd97366670: Preparing
+3afae77a7883: Layer already exists
+b4cb4859f173: Layer already exists
+c8dd97366670: Layer already exists
+dc9fa3d8b576: Layer already exists
+27ee19dc88f2: Layer already exists
+latest: digest: sha256:0866f3fcbe04f161ef37051c5fff65928b6416ace3db598c4d98f0372ee63b0c size: 1372
+[8mha:////4IVkf6ze51v6RxPTIVa2rSJo4j8ZtTZQiV82W20+StJ5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFefZgavgAAAA==[0m[Pipeline] }
+[8mha:////4JYJYb62Kz9MCSSId7cRJrZcIWfOk6fgtQPRTcyJh33gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSABJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+BpmxVvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4LCS9SMt4mdxnifNSBp1pCWax8dmca8kd1jH+EES2KHAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBSEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGyRTfpvgAAAA==[0m[Pipeline] }
+[8mha:////4ArRfklUmTzzWwb4VNV1rEjgfH6Gfnz23lT6QEeyh1sqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpCAWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPo0qHP++AAAA[0m[Pipeline] // stage
+[8mha:////4ImENXdEi5ilirK+XeMFerZZLz3Bri8zdVFruRukjPnOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAkG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm+TGqxWwgAAAA==[0m[Pipeline] stage
+[8mha:////4ObihBXNqupsmGC5LaGhpLmhFGAyRzNSuNuqJPN7EuN3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4HJ/rWpwH/A6oMmaM8J7GcdggNsyuu1gseOgpi836NRyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] emailext
+Sending email to: bilal13.fethi@gmail.com
+[8mha:////4PNFkELbptB0REqdz6r03/9WWYFZPLhhzVcxmT1/dMHHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[8mha:////4LxaSbVaRjjn/QYJcJkZRCIr8Hd4Bo/x7eAvkCDkWxVoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BBFgBS180U08mDEr6WlXK48ObiA1mZvMN4ISYq0He53AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrm2+w8yYvuhvgAAAA==[0m[Pipeline] }
+[8mha:////4FbSIxq0H1q+uF2Q9OQFqyuXHhYMxzLcSKjaQfYjFjQlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rm2uw8BgaAdvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4CxoEkT+C72sgWk6QsYOdiTN5lNKr8dYVWc5cCb6MEuDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSEgUiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKwz5XXX8AA+Csmb4AAAA=[0m[Pipeline] }
+[8mha:////4J9+3/8NQCSVuDYEbF7VZYn0SlzKFPkNAR7uLWYsIDxtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w8wA/clvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Mp5Y8uxuj6q9Uw6ipQm1fWx6ZYzVaihqMSYeYG2D1axAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPOD1ci70AAAA=[0m[Pipeline] }
+[8mha:////4ACTYfQSLe2Z6SPMF6CMflG9ER/v33acD71akJkYl/s/AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvCwF2f4DK4FYKL0AAAA=[0m[Pipeline] // node
+[8mha:////4IzStIsNDyjJNG59whwkisgcN3lcQmT4zP29j6GvANZIAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AGwmD929AAAA[0m[Pipeline] End of Pipeline
+Triggering a new build of [8mha:////4PX3PvHllMI8pIkj+3cURIFIcRZ/FwNUOQDf8Trbdr0HAAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZV/az8JP2S0pLSoszEnHgn1/iCovys1OSS+JTUgpz8ytTc1LwSfQDeZxEo2gAAAA==[0mtuturial_BE_project_deployement #27
+Finished: SUCCESS

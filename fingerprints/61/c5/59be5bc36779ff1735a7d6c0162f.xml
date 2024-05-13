@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-25 08:27:33.275 UTC</timestamp>
+  <md5sum>61c559be5bc36779ff1735a7d6c0162f</md5sum>
+  <fileName>Credential id=8bf81701-003f-4bc7-8345-cd155468a64b name=adminuser</fileName>
+  <usages>
+    <entry>
+      <string>owasp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714393953618</timestamp>
+      <nodeName>agentTarget</nodeName>
+      <timestamp0>1714391793550</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714394025094</timestamp>
+      <itemFullName>owasp</itemFullName>
+      <timestamp0>1714393474784</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

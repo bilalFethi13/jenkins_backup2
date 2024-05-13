@@ -1,4 +1,4 @@
-Started at Sat Apr 20 08:59:22 UTC 2024
+Started at Mon May 13 08:10:17 UTC 2024
 Processing checkstyle_warning
 Offering checkstyle_warning to Project Build Discarder
 Processing dockerImagePipe
@@ -7,22 +7,37 @@ Processing emailTestPipeline
 Offering emailTestPipeline to Project Build Discarder
 Processing firstPipeline
 Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
 Processing javaEhealth
 Offering javaEhealth to Project Build Discarder
+Processing jmeter-freestyle
+Offering jmeter-freestyle to Project Build Discarder
+Processing jmeterMultiVM
+Offering jmeterMultiVM to Project Build Discarder
 Processing JmeterTest
 Offering JmeterTest to Project Build Discarder
+Processing owasp
+Offering owasp to Project Build Discarder
+Processing owasp-zap-jenkins
+Offering owasp-zap-jenkins to Project Build Discarder
 Processing repportByMail
 Offering repportByMail to Project Build Discarder
+Processing sonarqube-jenkins
+Offering sonarqube-jenkins to Project Build Discarder
+sonarqube-jenkins accepted by Project Build Discarder
 Processing test_job
 Offering test_job to Project Build Discarder
 Processing testEmailNotifications
 Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 08:59:22 UTC 2024. 3ms
-Started at Sat Apr 20 09:59:22 UTC 2024
+Processing tutorials_FE_project
+Offering tutorials_FE_project to Project Build Discarder
+tutorials_FE_project accepted by Project Build Discarder
+Processing tuturial_BE_project
+Offering tuturial_BE_project to Project Build Discarder
+tuturial_BE_project accepted by Project Build Discarder
+Processing tuturial_BE_project_deployement
+Offering tuturial_BE_project_deployement to Project Build Discarder
+Finished at Mon May 13 08:10:18 UTC 2024. 892ms
+Started at Mon May 13 09:10:17 UTC 2024
 Processing checkstyle_warning
 Offering checkstyle_warning to Project Build Discarder
 Processing dockerImagePipe
@@ -31,22 +46,37 @@ Processing emailTestPipeline
 Offering emailTestPipeline to Project Build Discarder
 Processing firstPipeline
 Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
 Processing javaEhealth
 Offering javaEhealth to Project Build Discarder
+Processing jmeter-freestyle
+Offering jmeter-freestyle to Project Build Discarder
+Processing jmeterMultiVM
+Offering jmeterMultiVM to Project Build Discarder
 Processing JmeterTest
 Offering JmeterTest to Project Build Discarder
+Processing owasp
+Offering owasp to Project Build Discarder
+Processing owasp-zap-jenkins
+Offering owasp-zap-jenkins to Project Build Discarder
 Processing repportByMail
 Offering repportByMail to Project Build Discarder
+Processing sonarqube-jenkins
+Offering sonarqube-jenkins to Project Build Discarder
+sonarqube-jenkins accepted by Project Build Discarder
 Processing test_job
 Offering test_job to Project Build Discarder
 Processing testEmailNotifications
 Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 09:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 10:59:22 UTC 2024
+Processing tutorials_FE_project
+Offering tutorials_FE_project to Project Build Discarder
+tutorials_FE_project accepted by Project Build Discarder
+Processing tuturial_BE_project
+Offering tuturial_BE_project to Project Build Discarder
+tuturial_BE_project accepted by Project Build Discarder
+Processing tuturial_BE_project_deployement
+Offering tuturial_BE_project_deployement to Project Build Discarder
+Finished at Mon May 13 09:10:17 UTC 2024. 7ms
+Started at Mon May 13 10:10:17 UTC 2024
 Processing checkstyle_warning
 Offering checkstyle_warning to Project Build Discarder
 Processing dockerImagePipe
@@ -55,22 +85,37 @@ Processing emailTestPipeline
 Offering emailTestPipeline to Project Build Discarder
 Processing firstPipeline
 Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
 Processing javaEhealth
 Offering javaEhealth to Project Build Discarder
+Processing jmeter-freestyle
+Offering jmeter-freestyle to Project Build Discarder
+Processing jmeterMultiVM
+Offering jmeterMultiVM to Project Build Discarder
 Processing JmeterTest
 Offering JmeterTest to Project Build Discarder
+Processing owasp
+Offering owasp to Project Build Discarder
+Processing owasp-zap-jenkins
+Offering owasp-zap-jenkins to Project Build Discarder
 Processing repportByMail
 Offering repportByMail to Project Build Discarder
+Processing sonarqube-jenkins
+Offering sonarqube-jenkins to Project Build Discarder
+sonarqube-jenkins accepted by Project Build Discarder
 Processing test_job
 Offering test_job to Project Build Discarder
 Processing testEmailNotifications
 Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 10:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 11:59:22 UTC 2024
+Processing tutorials_FE_project
+Offering tutorials_FE_project to Project Build Discarder
+tutorials_FE_project accepted by Project Build Discarder
+Processing tuturial_BE_project
+Offering tuturial_BE_project to Project Build Discarder
+tuturial_BE_project accepted by Project Build Discarder
+Processing tuturial_BE_project_deployement
+Offering tuturial_BE_project_deployement to Project Build Discarder
+Finished at Mon May 13 10:10:17 UTC 2024. 2ms
+Started at Mon May 13 11:10:17 UTC 2024
 Processing checkstyle_warning
 Offering checkstyle_warning to Project Build Discarder
 Processing dockerImagePipe
@@ -79,138 +124,33 @@ Processing emailTestPipeline
 Offering emailTestPipeline to Project Build Discarder
 Processing firstPipeline
 Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
 Processing javaEhealth
 Offering javaEhealth to Project Build Discarder
+Processing jmeter-freestyle
+Offering jmeter-freestyle to Project Build Discarder
+Processing jmeterMultiVM
+Offering jmeterMultiVM to Project Build Discarder
 Processing JmeterTest
 Offering JmeterTest to Project Build Discarder
+Processing owasp
+Offering owasp to Project Build Discarder
+Processing owasp-zap-jenkins
+Offering owasp-zap-jenkins to Project Build Discarder
 Processing repportByMail
 Offering repportByMail to Project Build Discarder
+Processing sonarqube-jenkins
+Offering sonarqube-jenkins to Project Build Discarder
+sonarqube-jenkins accepted by Project Build Discarder
 Processing test_job
 Offering test_job to Project Build Discarder
 Processing testEmailNotifications
 Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 11:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 12:59:22 UTC 2024
-Processing checkstyle_warning
-Offering checkstyle_warning to Project Build Discarder
-Processing dockerImagePipe
-Offering dockerImagePipe to Project Build Discarder
-Processing emailTestPipeline
-Offering emailTestPipeline to Project Build Discarder
-Processing firstPipeline
-Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
-Processing javaEhealth
-Offering javaEhealth to Project Build Discarder
-Processing JmeterTest
-Offering JmeterTest to Project Build Discarder
-Processing repportByMail
-Offering repportByMail to Project Build Discarder
-Processing test_job
-Offering test_job to Project Build Discarder
-Processing testEmailNotifications
-Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 12:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 13:59:22 UTC 2024
-Processing checkstyle_warning
-Offering checkstyle_warning to Project Build Discarder
-Processing dockerImagePipe
-Offering dockerImagePipe to Project Build Discarder
-Processing emailTestPipeline
-Offering emailTestPipeline to Project Build Discarder
-Processing firstPipeline
-Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
-Processing javaEhealth
-Offering javaEhealth to Project Build Discarder
-Processing JmeterTest
-Offering JmeterTest to Project Build Discarder
-Processing repportByMail
-Offering repportByMail to Project Build Discarder
-Processing test_job
-Offering test_job to Project Build Discarder
-Processing testEmailNotifications
-Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 13:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 14:59:22 UTC 2024
-Processing checkstyle_warning
-Offering checkstyle_warning to Project Build Discarder
-Processing dockerImagePipe
-Offering dockerImagePipe to Project Build Discarder
-Processing emailTestPipeline
-Offering emailTestPipeline to Project Build Discarder
-Processing firstPipeline
-Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
-Processing javaEhealth
-Offering javaEhealth to Project Build Discarder
-Processing JmeterTest
-Offering JmeterTest to Project Build Discarder
-Processing repportByMail
-Offering repportByMail to Project Build Discarder
-Processing test_job
-Offering test_job to Project Build Discarder
-Processing testEmailNotifications
-Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 14:59:22 UTC 2024. 1ms
-Started at Sat Apr 20 15:59:22 UTC 2024
-Processing checkstyle_warning
-Offering checkstyle_warning to Project Build Discarder
-Processing dockerImagePipe
-Offering dockerImagePipe to Project Build Discarder
-Processing emailTestPipeline
-Offering emailTestPipeline to Project Build Discarder
-Processing firstPipeline
-Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
-Processing javaEhealth
-Offering javaEhealth to Project Build Discarder
-Processing JmeterTest
-Offering JmeterTest to Project Build Discarder
-Processing repportByMail
-Offering repportByMail to Project Build Discarder
-Processing test_job
-Offering test_job to Project Build Discarder
-Processing testEmailNotifications
-Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 15:59:22 UTC 2024. 2ms
-Started at Sat Apr 20 16:59:22 UTC 2024
-Processing checkstyle_warning
-Offering checkstyle_warning to Project Build Discarder
-Processing dockerImagePipe
-Offering dockerImagePipe to Project Build Discarder
-Processing emailTestPipeline
-Offering emailTestPipeline to Project Build Discarder
-Processing firstPipeline
-Offering firstPipeline to Project Build Discarder
-Processing Freestyle Project 033
-Offering Freestyle Project 033 to Project Build Discarder
-Processing Freestyle Project 07
-Offering Freestyle Project 07 to Project Build Discarder
-Processing javaEhealth
-Offering javaEhealth to Project Build Discarder
-Processing JmeterTest
-Offering JmeterTest to Project Build Discarder
-Processing repportByMail
-Offering repportByMail to Project Build Discarder
-Processing test_job
-Offering test_job to Project Build Discarder
-Processing testEmailNotifications
-Offering testEmailNotifications to Project Build Discarder
-Finished at Sat Apr 20 16:59:22 UTC 2024. 1ms
+Processing tutorials_FE_project
+Offering tutorials_FE_project to Project Build Discarder
+tutorials_FE_project accepted by Project Build Discarder
+Processing tuturial_BE_project
+Offering tuturial_BE_project to Project Build Discarder
+tuturial_BE_project accepted by Project Build Discarder
+Processing tuturial_BE_project_deployement
+Offering tuturial_BE_project_deployement to Project Build Discarder
+Finished at Mon May 13 11:10:17 UTC 2024. 4ms

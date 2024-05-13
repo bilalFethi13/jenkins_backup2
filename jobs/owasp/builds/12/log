@@ -1,0 +1,411 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Obtained Jenkinsfile from git https://gitlab.com/bifethi/owasp.git
+[8mha:////4CNGB/hLBvfy//DSv0vZkW5oajASR9xIYFvwe0kdhar+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4O++ejJR/SrowDUdL9BFbDpYPsPFkr1RJOlizoT/TT0sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KMxZ3V0UPzaOhnFIOX+Dcs/2ZS2RZePqVrUdU5t7nqzAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYx/eT83ILSktQi/cT01LySkMSi9NQSfQDlcCiaywAAAA==[0magentTarget in /home/adminuser/workspace/owasp
+[8mha:////4Pa+AHbcBDXXbgRJsGASuhgb1MNstzYcuyvE9Dt4Er6aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FY58Ti/B1VL8Y8BvJs5j6iz3uUqC7EiW1LLbqpYKcP7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NaDEbanVyM7eXs14wRVRm1j1idd+QAs0WWewNlZ2poHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AHDGmR9S4XVHrUL9o4WRHed4gYCOLSkeXhSFd8nhldtAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 8bf81701-003f-4bc7-8345-cd155468a64b
+Fetching changes from the remote Git repository
+Checking out Revision a356ec95df3edaa2546997a8e658f797c1559614 (refs/remotes/origin/main)
+Commit message: "Update file Jenkinsfile"
+ > git rev-parse --resolve-git-dir /home/adminuser/workspace/owasp/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/bifethi/owasp.git # timeout=10
+Fetching upstream changes from https://gitlab.com/bifethi/owasp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+ > git fetch --tags --force --progress -- https://gitlab.com/bifethi/owasp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a356ec95df3edaa2546997a8e658f797c1559614 # timeout=10
+ > git rev-list --no-walk fd4b21da5cc8b20d09fd3f1e0334baaa3acc2684 # timeout=10
+[8mha:////4HEyTv9n4Bpl6VP+T27eFM6LQbszRgqDBg6A/XzVzj4pAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4MPaEb6kUpZ+qzbsjqPS6Difn1B4/HaQZmN1SLFpkEUoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FHZEx0M0grQgp29rnwmuUYo6PXVJoJSE65IMgyYIOqUAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GEIaWiTFun3UzwOy1lVjv9W7HwgxrBO0BGx/H3ItUr8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LrjJmU02Y1uLNTOdvQtLeProBrk1PtY2Ap0yjFhBQzRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4HhEip2DEus7PfDtVgc1rCG1ofkGWmUB0eIYjnt0iwdfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4BpK0k2O5RVgTzOH/F4lP5Fe16oaZjZcVexF8KVXHpzrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4NgD5+gSzFdsG90MSgyYvs8+nT/1w2LO+UnItu+zcu42AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KozUG0c+TLdRjQhsNJ4u22xwf27NBrrQ8wHG2I49jvXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4Eo0uoUh4EIZhC+tuvmKm+UXsDZKaPvWkz1pftaCRUePAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4AifRT9chfzb994eaHnddu6bGSGsjtMpFKqIq69b1dtiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4JzYeeKdZqMSP7cLoXWWN3My1RjLBsUOTbHISyJp1E9OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4GI4B6tn/0wMi0AIVxmzBnSF7GrOFm3TdIHd6GflcdgEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Bv35uxxyf62rxuoyijW22rYdN037cTKBGz0Y90Mh8zxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Build & Unit test)
+[8mha:////4BnUIacYBTrSBmRKpES02xMCYiuAubdfrWJzHRPDDvvSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4Od2UReRW4wnOUc7tz3R2T5crZHCOh4albhQ5DV9D4UEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Lyql12tZT+0YzYnU6UdAX3gvn7LGykeBJoO5n6B2dQEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4GL3btOP7xprvs2DKdoi3Qf7BNFz8b52Uiqv9NJh1xEMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4HsWubNx+8A2gCJOq3Yel3d6aqCw1P6vOGFhREaB9IKUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for be.businesstraining:MyWebAppSecurity:war:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ line 37, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< be.businesstraining:MyWebAppSecurity >----------------
+[INFO] Building MyWebAppSecurity 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ MyWebAppSecurity ---
+[INFO] Deleting /home/adminuser/workspace/owasp/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ MyWebAppSecurity ---
+[INFO] skip non existing resourceDirectory /home/adminuser/workspace/owasp/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ MyWebAppSecurity ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/adminuser/workspace/owasp/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ MyWebAppSecurity ---
+[INFO] skip non existing resourceDirectory /home/adminuser/workspace/owasp/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ MyWebAppSecurity ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/adminuser/workspace/owasp/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ MyWebAppSecurity ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit.JUnit3Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running be.businesstraining.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in be.businesstraining.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- war:3.3.2:war (default-war) @ MyWebAppSecurity ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [MyWebAppSecurity] in [/home/adminuser/workspace/owasp/target/MyWebAppSecurity]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/adminuser/workspace/owasp/src/main/webapp]
+[INFO] Building war: /home/adminuser/workspace/owasp/target/MyWebAppSecurity.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.439 s
+[INFO] Finished at: 2024-04-29T14:26:18Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DPs1OHUXJnVpOyvUatMQEC3ouwlBa32idoFXf3jEb2IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4JFyt1FtYSDwwrexArgd4PwKtlaQTxKk45ilTIuWZHEnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4ApyB5vvwZifUIGdSBz2RFu7f0Gn7+i2m0ykUiKsQhDfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4OacWRTC+Xhh8s7Bs+LdxP6Hxbrczm7PW9dZ9EhvAxkTAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPsXVX92+AAAA[0m[Pipeline] }
+[8mha:////4AnwBLNbLC+EEk9UT//g+Dm2uUWqg1xkxQIQpj3RBBj6AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvP/Y2BGG+AAAA[0m[Pipeline] // stage
+[8mha:////4M8DSOA3JIdyLYx8BvlIWPXqA3/ZO8OPMiwIyN44L5RwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQED/Pa2wgAAAA==[0m[Pipeline] stage
+[8mha:////4FuyZt8oyKQW31IHmwWhUOjD+uIrNvZ18VolOCvBkRziAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Security SAT : OWASP Dependency Check)
+[8mha:////4KQXbFuv9LWqZ52yxLQhUxF34/BNvItSnxgUa7UR56cCAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] tool
+[8mha:////4GP9lcpMaTqoCRm+62dT4u1uFKZnZO2+rOyW8sFGnqpMAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fWFYUrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4D5NZlzfKOS9bymuUIOgD1YwFu2UHgD3YT2kZ62EWS+jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qMSCmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qAw548yPCAAAA[0m[Pipeline] withEnv
+[8mha:////4DssGXrhUnq3XFJ2Fobs0ZFBbinfJ9s5zWYf2ZkIDkTOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4LE3j0MZGqaRhXQTrnbM+lhZhjqyq/9UfNsOBId4hj9lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] sh
++ mvn verify
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for be.businesstraining:MyWebAppSecurity:war:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ line 37, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< be.businesstraining:MyWebAppSecurity >----------------
+[INFO] Building MyWebAppSecurity 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ MyWebAppSecurity ---
+[INFO] skip non existing resourceDirectory /home/adminuser/workspace/owasp/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ MyWebAppSecurity ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ MyWebAppSecurity ---
+[INFO] skip non existing resourceDirectory /home/adminuser/workspace/owasp/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ MyWebAppSecurity ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ MyWebAppSecurity ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit.JUnit3Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running be.businesstraining.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in be.businesstraining.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- war:3.3.2:war (default-war) @ MyWebAppSecurity ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [MyWebAppSecurity] in [/home/adminuser/workspace/owasp/target/MyWebAppSecurity]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/adminuser/workspace/owasp/src/main/webapp]
+[INFO] Building war: /home/adminuser/workspace/owasp/target/MyWebAppSecurity.war
+[INFO] 
+[INFO] --- dependency-check:9.1.0:check (default) @ MyWebAppSecurity ---
+[INFO] Checking for updates
+[INFO] Skipping the NVD API Update as it was completed within the last 240 minutes
+[INFO] Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+[INFO] Check for updates complete (626 ms)
+[INFO] 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+💖 Sponsor: https://github.com/sponsors/jeremylong
+
+
+[INFO] Analysis Started
+[INFO] Finished Archive Analyzer (0 seconds)
+[INFO] Finished File Name Analyzer (0 seconds)
+[INFO] Finished Jar Analyzer (0 seconds)
+[INFO] Finished Dependency Merging Analyzer (0 seconds)
+[INFO] Finished Hint Analyzer (0 seconds)
+[INFO] Finished Version Filter Analyzer (0 seconds)
+[INFO] Created CPE Index (3 seconds)
+[INFO] Finished CPE Analyzer (4 seconds)
+[INFO] Finished False Positive Analyzer (0 seconds)
+[INFO] Finished NVD CVE Analyzer (0 seconds)
+[INFO] Finished Sonatype OSS Index Analyzer (0 seconds)
+[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
+[INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
+[INFO] Finished Dependency Bundling Analyzer (0 seconds)
+[INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
+[INFO] Analysis Complete (4 seconds)
+[INFO] Writing HTML report to: /home/adminuser/workspace/owasp/target/dependency-check-report.html
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.879 s
+[INFO] Finished at: 2024-04-29T14:26:32Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4CQEg5PwiRkD8BXU5iTkFQt1d4mdtEgAeWc4NuyRYqycAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4NwZF6vr1zOP00Mug70n9DHQq+qITttQ4/IKpGzWEaZBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NAoqgLwXiGZnV2LbeuCMi2TeM2lbqL2nQ/8T9IgX4DtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4NosSS+AAAA[0m[Pipeline] }
+[8mha:////4C5hku2759cSTyqydfez0RoGrIBy+0os66YDBESdmUeiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP7sqItW+AAAA[0m[Pipeline] // stage
+[8mha:////4Ma4nYI683Hrc6KJIg+8SuPaQfVI/dw+ass3ingrpaIxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g0oEQ24wgAAAA==[0m[Pipeline] stage
+[8mha:////4MiEVZbXJkRHvRZWwOMnzXkaha+w9xbvHvFHIhrrQmcdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Deploy to tomcat)
+[8mha:////4KEbtbwYzStSHbsRk259lymcFLMNX5UsThKBWVIECGdiAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] tool
+[8mha:////4Jx668ny2VU5HjeAWnsv2L4lPt0oDmxw3TSadbTuU6RVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fiSQUTb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Pv83JEWcp+6Zwv/0ZFjnp1TZyCMeiz92H7rmU+9znV5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qcSAmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qAylpq3DCAAAA[0m[Pipeline] withEnv
+[8mha:////4Iq2aQ88z2XcGpD3ZBur42JOGCUrRY/FGeXxuS+I+xTKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4EzWpsuPsOCfV0oPYcOGOk7ULikj4+Drz8PQX6p9orWLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] script
+[8mha:////4OUrSOZlPge0EAKNRKNJPBcqs4uq/km1F7hzY9uEeqTHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4FkRBPc0eaNJnRR1j66HmmrU4cksH0V1nm763dlEyoslAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
++ sudo cp target/MyWebAppSecurity.war /opt/tomcat/webapps/mywebapp.war
+[8mha:////4L3yRNHy1ogwRGWksBkQUH03fJFyF9mf5wRgaYET1cF7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4OCWEZwLRs6V2FmzRxF3IcK8EYK7Pir/Eh6V6IZ9tLEYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // script
+[8mha:////4OFyMt6gGMVi9zhBcO5Qj5O2E8EYN8XrZJfG9yL8y41CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBAkJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/LvZgKvgAAAA==[0m[Pipeline] }
+[8mha:////4GqWX99IU5b+hhdSHvP00qDYYIYSncTh538DFc7v41H0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpiCgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AH/c3tRvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JhIrjFTmydZYG3IevQ2MlZSKns+bbI4GTYQUJr5EGUuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP+tQ5k6+AAAA[0m[Pipeline] }
+[8mha:////4ErgvRHwv/aSUPYLTaaPQVAahkxhjeU17FQ9+NWqqzdoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w/tFt4bvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PZKN0EOarOSVw2vYMQue4/6F4L4hB0RDkMOPjG0lx29AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDEgg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm9f6r10wgAAAA==[0m[Pipeline] stage
+[8mha:////4LyAr8NLDo7koV83fQmDpQDOLxx83CLJCteV2benPnlrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (Scan ZAP(Active Scan DAST))
+[8mha:////4H4oT8qGK1sPiYXgoT/4ADaWb2psGqXU31a/15yelvtQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] tool
+[8mha:////4IAqcpYoEbIg5nTQ3gkyt0n1+n7BIWJ6irq+TX8xWKD5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4MKzL6y4kLklayfqx2Xpq1bp7Tdbi2sjM87cVQd/R73PAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEBREunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKU23223ebzrN7b6MjnwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KzQHPn2aQTFBfM38FSBICOR50b2w9mr7RGmpELsnJQ3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4EvwuCyI7SqoXmN7kcknUMcPliHm+6+e7WBhTUD2GIHAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] script
+[8mha:////4NE6ZkiAsCoWk27AB3/Kzr2zfjJctMCeDPSzHbmWSYduAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4JyvHtINgINq3PrtzCRZZq6h1Y0QzrcxLYXFUBHc+qpbAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] sh
++ docker run --rm -v /home/adminuser:/zap/wrk/:rw -t shunlihuang/zaproxy zap-baseline.py -t http://52.143.189.38:8080/mywebapp/ -x report_OWASP
+Unable to find image 'shunlihuang/zaproxy:latest' locally
+latest: Pulling from shunlihuang/zaproxy
+4d32b49e2995: Pulling fs layer
+508c6e8a6683: Pulling fs layer
+40a9f14ce1d9: Pulling fs layer
+75bf84448705: Pulling fs layer
+9e3e68bd3b71: Pulling fs layer
+ab1803ca01d1: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+45ac76f9466f: Pulling fs layer
+90c756377282: Pulling fs layer
+b143399d2488: Pulling fs layer
+c40c28208a72: Pulling fs layer
+65ea597f12b4: Pulling fs layer
+1d8bb9a4c673: Pulling fs layer
+d0e66d3dab1d: Pulling fs layer
+c5fa38ddc0da: Pulling fs layer
+009adc6ba4ea: Pulling fs layer
+978b9e930542: Pulling fs layer
+108d11132fe1: Pulling fs layer
+07e3d5e62bb2: Pulling fs layer
+d4e862d7651f: Pulling fs layer
+1026e80131ec: Pulling fs layer
+50493e91fc48: Pulling fs layer
+75bf84448705: Waiting
+9e3e68bd3b71: Waiting
+ab1803ca01d1: Waiting
+4f4fb700ef54: Waiting
+45ac76f9466f: Waiting
+90c756377282: Waiting
+b143399d2488: Waiting
+c40c28208a72: Waiting
+65ea597f12b4: Waiting
+1d8bb9a4c673: Waiting
+d0e66d3dab1d: Waiting
+c5fa38ddc0da: Waiting
+009adc6ba4ea: Waiting
+978b9e930542: Waiting
+108d11132fe1: Waiting
+07e3d5e62bb2: Waiting
+d4e862d7651f: Waiting
+1026e80131ec: Waiting
+50493e91fc48: Waiting
+4d32b49e2995: Verifying Checksum
+4d32b49e2995: Download complete
+75bf84448705: Verifying Checksum
+75bf84448705: Download complete
+40a9f14ce1d9: Verifying Checksum
+40a9f14ce1d9: Download complete
+9e3e68bd3b71: Verifying Checksum
+9e3e68bd3b71: Download complete
+ab1803ca01d1: Verifying Checksum
+ab1803ca01d1: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+45ac76f9466f: Verifying Checksum
+45ac76f9466f: Download complete
+90c756377282: Verifying Checksum
+90c756377282: Download complete
+c40c28208a72: Verifying Checksum
+c40c28208a72: Download complete
+65ea597f12b4: Download complete
+1d8bb9a4c673: Verifying Checksum
+1d8bb9a4c673: Download complete
+d0e66d3dab1d: Verifying Checksum
+d0e66d3dab1d: Download complete
+c5fa38ddc0da: Verifying Checksum
+c5fa38ddc0da: Download complete
+009adc6ba4ea: Download complete
+978b9e930542: Verifying Checksum
+978b9e930542: Download complete
+b143399d2488: Verifying Checksum
+b143399d2488: Download complete
+108d11132fe1: Verifying Checksum
+108d11132fe1: Download complete
+07e3d5e62bb2: Verifying Checksum
+07e3d5e62bb2: Download complete
+1026e80131ec: Verifying Checksum
+1026e80131ec: Download complete
+508c6e8a6683: Verifying Checksum
+508c6e8a6683: Download complete
+d4e862d7651f: Verifying Checksum
+d4e862d7651f: Download complete
+50493e91fc48: Verifying Checksum
+50493e91fc48: Download complete
+4d32b49e2995: Pull complete
+508c6e8a6683: Pull complete
+40a9f14ce1d9: Pull complete
+75bf84448705: Pull complete
+9e3e68bd3b71: Pull complete
+ab1803ca01d1: Pull complete
+4f4fb700ef54: Pull complete
+45ac76f9466f: Pull complete
+90c756377282: Pull complete
+b143399d2488: Pull complete
+c40c28208a72: Pull complete
+65ea597f12b4: Pull complete
+1d8bb9a4c673: Pull complete
+d0e66d3dab1d: Pull complete
+c5fa38ddc0da: Pull complete
+009adc6ba4ea: Pull complete
+978b9e930542: Pull complete
+108d11132fe1: Pull complete
+07e3d5e62bb2: Pull complete
+d4e862d7651f: Pull complete
+1026e80131ec: Pull complete
+50493e91fc48: Pull complete
+Digest: sha256:4a8533ec1379a1afb5910966b11a848dcab20e22f70d79114a827c00cca4f7a5
+Status: Downloaded newer image for shunlihuang/zaproxy:latest
+2024-04-29 14:27:50,014 Could not find custom hooks file at /home/zap/.zap_hooks.py 
+Using the Automation Framework
+Total of 6 URLs
+PASS: Vulnerable JS Library (Powered by Retire.js) [10003]
+PASS: Cookie No HttpOnly Flag [10010]
+PASS: Cookie Without Secure Flag [10011]
+PASS: Re-examine Cache-control Directives [10015]
+PASS: Cross-Domain JavaScript Source File Inclusion [10017]
+PASS: Content-Type Header Missing [10019]
+PASS: Anti-clickjacking Header [10020]
+PASS: X-Content-Type-Options Header Missing [10021]
+PASS: Information Disclosure - Debug Error Messages [10023]
+PASS: Information Disclosure - Sensitive Information in URL [10024]
+PASS: Information Disclosure - Sensitive Information in HTTP Referrer Header [10025]
+PASS: Information Disclosure - Suspicious Comments [10027]
+PASS: Viewstate [10032]
+PASS: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s) [10037]
+PASS: Secure Pages Include Mixed Content [10040]
+PASS: Cookie without SameSite Attribute [10054]
+PASS: CSP [10055]
+PASS: X-Debug-Token Information Leak [10056]
+PASS: Username Hash Found [10057]
+PASS: X-AspNet-Version Response Header [10061]
+PASS: Timestamp Disclosure [10096]
+PASS: Cross-Domain Misconfiguration [10098]
+PASS: Weak Authentication Method [10105]
+PASS: Absence of Anti-CSRF Tokens [10202]
+PASS: Private IP Disclosure [2]
+PASS: Session ID in URL Rewrite [3]
+PASS: Script Passive Scan Rules [50001]
+PASS: Stats Passive Scan Rule [50003]
+PASS: Insecure JSF ViewState [90001]
+PASS: Charset Mismatch [90011]
+PASS: Application Error Disclosure [90022]
+PASS: WSDL File Detection [90030]
+PASS: Loosely Scoped Cookie [90033]
+WARN-NEW: Content Security Policy (CSP) Header Not Set [10038] x 5 
+	http://52.143.189.38:8080/ (404 Not Found)
+	http://52.143.189.38:8080/mywebapp (404 Not Found)
+	http://52.143.189.38:8080/mywebapp/ (404 Not Found)
+	http://52.143.189.38:8080/robots.txt (404 Not Found)
+	http://52.143.189.38:8080/sitemap.xml (404 Not Found)
+FAIL-NEW: 0	FAIL-INPROG: 0	WARN-NEW: 1	WARN-INPROG: 0	INFO: 0	IGNORE: 0	PASS: 33
+Automation plan warnings:
+	The addOns job no longer does anything and should be removed, see https://www.zaproxy.org/docs/desktop/addons/automation-framework/job-addons/
+	The addOns job no longer does anything and should be removed, see https://www.zaproxy.org/docs/desktop/addons/automation-framework/job-addons/
+	The addOns job no longer does anything and should be removed, see https://www.zaproxy.org/docs/desktop/addons/automation-framework/job-addons/
+	Job spider error accessing URL http://52.143.189.38:8080/mywebapp/ status code returned : 404 expected 200
+	Job spider error accessing URL http://52.143.189.38:8080/ status code returned : 404 expected 200
++ exit 0
+[8mha:////4DkSpud0GXO///SMJvtI7B6rTuZSNTtTctALVuCvERORAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BsfLY/G+AAAA[0m[Pipeline] }
+[8mha:////4P1J3X+n6MMdZtriDvyL8XUZbnXT54io4Z0HdGxv8p5rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGESTJ3vgAAAA==[0m[Pipeline] // script
+[8mha:////4C+lK7+wpRSlhPlO3wulMhAdqbPX8VxfqltmRwgj4t/CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2CDwoivgAAAA==[0m[Pipeline] }
+[8mha:////4Hd2BeLncqEVN86p8i1nOrv7CpZi7lAQH32vLzLueywLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9oZXXUvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ich3OlCon6c6xzUjEJswykkSIrPf+XNLbfCvAJEwzROAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCoQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAhjzWo74AAAA=[0m[Pipeline] }
+[8mha:////4DXz7jxXwqBoCeLf78LcWEtaRsolgzBMiy+5WgZLw2joAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDvn5FUr4AAAA=[0m[Pipeline] // stage
+[8mha:////4CIWIhUH1CDSiTCuyqhh25IWSSSXFD+EMC4pmvL0SpVXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv8u1PXwAiVhyir4AAAA=[0m[Pipeline] }
+[8mha:////4G6TD++91v0F6U9tnJ3p9iWOAgLv02dmCbIPeiCt+CtJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+12u7eEDp1hw4L4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MCNKJpcBucs6Gm9A7jsIMTu41O2jEmeBtaophYZYaxYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFIgCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+mM/BSvgAAAA==[0m[Pipeline] }
+[8mha:////4NGBlj25sVpviEmWDiST/w1DTPzO3yUzbJGsX18xvvevAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDRQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGecWOjvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4OLRHUiCr4ChM7jI80/tphN4WtiKzlla+cVG7rWLfw6RAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJgzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HiBQ8tr0AAAA=[0m[Pipeline] }
+[8mha:////4Ldrsbyb2dEB01eC+IN4JWe42Ws05E3Y/wWksI9oJliDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+APoWCKq9AAAA[0m[Pipeline] // node
+[8mha:////4JEoKr0+aO3lX4K8hFHyF6xqatjs6r+BTInYTz+iuzX8AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ANwPb+C9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

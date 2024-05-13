@@ -1,0 +1,9 @@
+commit a356ec95df3edaa2546997a8e658f797c1559614
+tree c28116df093b1e2e02f23cb085b0908e7a7b19cb
+parent fd4b21da5cc8b20d09fd3f1e0334baaa3acc2684
+author bilal <bilal13.fethi@gmail.com> 2024-04-29 14:26:02 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-29 14:26:02 +0000
+
+    Update file Jenkinsfile
+
+:100644 100644 bb35e5e9322fc355daa56bb22b9f8ed97e6fa250 4c1c0d5ef693b96c037bf4a412ef61b8ef1a6cce M	Jenkinsfile

@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty plugin="gitlab-plugin@1.8.0">
+      <gitLabConnection></gitLabConnection>
+      <jobCredentialId></jobCredentialId>
+      <useAlternativeCredential>false</useAlternativeCredential>
+    </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.vd0f0248b_a_fc4">
+    <script>pipeline {
+    agent none
+
+    stages {
+        stage(&apos;Transfer and Run JMeter Test&apos;) {
+            agent { label &apos;agentTarget&apos; } // Label of your testing node
+            steps {
+                script {
+                    sh &quot;mkdir -p /home/adminuser/jmeterArtifact&quot;
+                    sh &quot;rm -f /home/adminuser/jmeterArtifact/results.jtl&quot;
+                    sh &quot;/opt/apache-jmeter-5.6.3/bin/jmeter -n -t /opt/apache-jmeter-5.6.3/bin/jenkins.io.jmx -Jserver=4.211.131.232 -l /home/adminuser/jmeterArtifact/results.jtl&quot;
+                    // Copy the results.jtl into the workspace
+                    sh &quot;cp /home/adminuser/jmeterArtifact/results.jtl ${WORKSPACE}/results.jtl&quot;
+                }
+            }
+        }
+        
+        stage(&apos;Analyze Performance&apos;) {
+            agent { label &apos;agentTarget&apos; } // Reuse the same agent
+            steps {
+                // This step assumes that the results.jtl file is in your Jenkins workspace
+                // performanceReport parsers: [[$class: &apos;JMeterParser&apos;, glob: &apos;**/results.jtl&apos;]]
+                performanceReport sourceDataFiles: &apos;**/results.jtl&apos;, parsers: [[$class: &apos;JMeterParser&apos;, glob: &apos;**/results.jtl&apos;]]
+            }
+        }
+
+        
+        stage(&apos;Send Email&apos;) {
+            agent { label &apos;agentTarget&apos; } // Label of your testing node
+            steps {
+                emailext (
+                    mimeType: &apos;text/html&apos;,
+                    to: &apos;bilal13.fethi@gmail.com&apos;,
+                    subject: &quot;&quot;&quot;Jmeter Analysis Report - ${env.JOB_NAME} Build ${env.BUILD_NUMBER}&quot;&quot;&quot;,
+                    body: &quot;&quot;&quot;&lt;p&gt;See attached analysis reports from the build:&lt;/p&gt;
+                             &lt;p&gt;&lt;strong&gt;Job:&lt;/strong&gt; ${env.JOB_NAME}&lt;/p&gt;
+                             &lt;p&gt;&lt;strong&gt;Build:&lt;/strong&gt; ${env.BUILD_NUMBER}&lt;/p&gt;
+                        &quot;&quot;&quot;,
+                    attachmentsPattern: &quot;**/results.jtl&quot;
+                    //attachmentsPattern: &apos;/home/adminuser/jmeterArtifact/results.jtl&apos;
+                )
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1265.v65b_14fa_f12f0">
+  <suites>
+    <suite>
+      <file>/home/adminuser/workspace/owasp/target/surefire-reports/TEST-be.businesstraining.AppTest.xml</file>
+      <name>be.businesstraining.AppTest</name>
+      <duration>0.024</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.024</time>
+      <nodeId>27</nodeId>
+      <enclosingBlocks>
+        <string>21</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build &amp; Unit test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.003</duration>
+          <startTime>-1</startTime>
+          <className>be.businesstraining.AppTest</className>
+          <testName>testApp</testName>
+          <skipped>false</skipped>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.024</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>NONE</stdioRetention>
+  <keepProperties>false</keepProperties>
+</result>

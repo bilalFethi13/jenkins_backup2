@@ -1,0 +1,9 @@
+commit e8add714b635e0b54ebc826ac079f7a44b4f9ea6
+tree 23f07a1907c1132a17eb825d69c8cea11156ee9f
+parent 0cef35e25b557458b17bd07893127440c6bc35e9
+author bilal <bilal13.fethi@gmail.com> 2024-05-09 16:00:46 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-05-09 16:00:46 +0000
+
+    Update file docker-compose.yml
+
+:100644 100644 f255514642fc00e4573f32a3f3c3cd59f8de96ec 3065fe410080813616a0e2168ac3fc357173abec M	docker-compose.yml

@@ -13,15 +13,11 @@
       <ranges>1-9,11-12,14,16-17</ranges>
     </entry>
     <entry>
-      <string>Freestyle Project 033</string>
+      <string>javaEhealth</string>
       <ranges>1</ranges>
     </entry>
     <entry>
       <string>firstPipeline</string>
-      <ranges>1</ranges>
-    </entry>
-    <entry>
-      <string>javaEhealth</string>
       <ranges>1</ranges>
     </entry>
   </usages>

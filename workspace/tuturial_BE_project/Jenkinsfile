@@ -1,0 +1,121 @@
+pipeline {
+    agent { label 'testTarget' }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '5'))
+        timeout(time: 1, unit: 'HOURS') // Prevents the pipeline from hanging indefinitely
+    }
+
+    
+
+    stages {
+        stage('Verification') {
+            steps {
+                        sh 'whoami'
+                        sh 'pwd'
+                }
+        }
+
+        stage('compile project') {
+            steps {
+                 withSonarQubeEnv(installationName: 'MySonarToken') {
+                    sh 'mvn clean compile sonar:sonar'
+                }
+            }
+        }
+
+//        stage('Scan') {
+  //          steps {
+   //             withSonarQubeEnv(installationName: 'MySonarToken') {
+     //               sh 'mvn clean org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar'
+       //         }
+         //   }
+        //}
+
+        stage("Unit Tests") {
+            steps {
+                echo 'Running unit tests...'
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml' // Collect JUnit test reports
+                }
+            }
+        }
+
+        stage("Integration Tests") {
+            steps {
+                echo 'Running integration tests...'
+                sh 'mvn verify'
+            }
+        }
+
+        stage("Quality Gate") {
+            steps {
+                waitForQualityGate abortPipeline: true
+            }
+        }
+
+        stage('Docker Build') {
+            agent any
+            steps {
+                sh 'docker build -t bilalfethi/spring-petclinic:latest .'
+            }
+        }
+
+        stage('Docker Push') {
+            agent any
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'f1d0a3f7-bce7-4490-b79d-88005a3c1905', passwordVariable: 'bilalfethi', usernameVariable: 'bilal13docker')]) {
+                    sh "docker login -u 'bilalfethi' -p 'bilal13docker'"
+                    sh 'docker push bilalfethi/spring-petclinic:latest'
+                }
+            }
+        }
+
+        stage('Deploy') {
+            when {
+                branch 'main' // Only deploy from master branch
+            }
+            steps {
+                echo 'Deploying to production server...'
+                // Deployment commands here
+            }
+        }
+    }
+
+    post {
+      failure {
+        script {
+            def sonarProjectURL = "http://4.212.242.142:9000//dashboard?id=com.example%3Ademo"
+            echo 'Sending email with analysis results...'
+            emailext (
+                to: 'bilal13.fethi@gmail.com',
+                subject: "SonarQube Quality Gate Failed - ${env.JOB_NAME}",
+                body: """<p>Please review the issues from the build:</p>
+                        <p><strong>Job:</strong> ${env.JOB_NAME}</p>
+                        <p><strong>Build:</strong> ${env.BUILD_NUMBER}</p>
+                        <ul>
+                            <li>"SonarQube Quality Gate Failed - ${env.JOB_NAME}"</li>
+                            <li>"The SonarQube quality gate has failed for the project. Please review the issues at ${sonarProjectURL}"</li>
+                        </ul>""",
+            )
+        }
+      }
+
+      success {
+        emailext (
+                mimeType: 'text/html',
+                to: 'bilal13.fethi@gmail.com',
+                subject: "SUCCESS: Build #${env.BUILD_NUMBER} - ${env.JOB_NAME}",
+                body: """<p>See attached analysis reports from the build:</p>
+                        <p><strong>Job:</strong> ${env.JOB_NAME}</p>
+                        <p><strong>Build:</strong> ${env.BUILD_NUMBER}</p>
+                        <ul>
+                            <li>"SonarQube Quality Gate SUCCESS - ${env.JOB_NAME}"</li>
+                        </ul>""",
+            )
+      }
+    }
+}

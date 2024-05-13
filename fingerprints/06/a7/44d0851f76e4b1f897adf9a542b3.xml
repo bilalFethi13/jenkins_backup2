@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-25 08:52:45.238 UTC</timestamp>
+  <md5sum>06a744d0851f76e4b1f897adf9a542b3</md5sum>
+  <fileName>Credential id=82ebab6d-fa1e-4707-8bfb-d8a088e4d495 name=jenkins@lodywood.be/******</fileName>
+  <usages>
+    <entry>
+      <string>sonarqube-jenkins</string>
+      <ranges>22-24,26</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714055644621</timestamp>
+      <itemFullName>sonarqube-jenkins</itemFullName>
+      <timestamp0>1714055597394</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

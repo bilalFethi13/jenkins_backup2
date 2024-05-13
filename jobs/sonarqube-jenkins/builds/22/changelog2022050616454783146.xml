@@ -1,0 +1,9 @@
+commit dd8fbf6a1da0b2f2f61f3a89a30f366589a779b2
+tree 8b1e5ede5f5279307b7ec147230ef76593d320d1
+parent 83d04e859c08757b032453771605ed0a77809be3
+author bilal <bilal13.fethi@gmail.com> 2024-04-25 14:12:00 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-25 14:12:00 +0000
+
+    failure & success sonarqube build
+
+:100644 100644 ee7adc5b35fc6ec5ccb548e296eda52a82a03b55 d5bd3cec6005f8792cd6a46ec1691f949c863852 M	Jenkinsfile
